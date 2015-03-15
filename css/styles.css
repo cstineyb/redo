@@ -2,9 +2,12 @@ body {
 	background: #000;
 }
 
+
+
 p {
-	background: gold;
-	width: 90%;
+	background: chocolate;
+	padding: 2% 10% 10% 2%;
+	
 }
 
 .ui.attached.header { 
