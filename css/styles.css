@@ -2,7 +2,20 @@ body {
 	background: #000;
 }
 
+.main.segment {
+	width: 90%;
+	margin: 0 auto;
+}
+header {
+	width:300px;
+}
 
+h1 {
+	font: 3em 'Roboto';
+	font-weight: bolder;
+	width:300px;
+	position:relative;
+}
 
 p {
 	background: chocolate;
@@ -10,11 +23,17 @@ p {
 	
 }
 
+img {float: right}
+
 .ui.attached.header { 
 background: #000;
 color:#999;
 width:100%;
 border:none;
+}
+
+#middle.ui.attached.header {
+	height:255px;
 }
 
 .ui.move.up.reveal, 
