@@ -109,9 +109,11 @@ ul.bxslider {
 	p {
 		color: #999;
 		font-size: 1.65em;
-		padding-bottom:2px;
+		padding-bottom:1%;
+		padding-top:8%;
 		background: #000;
 		text-align: left;
+
 
 	}
 
@@ -136,8 +138,9 @@ ul.bxslider {
 	#middle.ui.attached.header {
 	height:270px;
 }
-.ui.move.up.reveal {
+div.ui.move.up.reveal {
 	margin-top: 8%;
+	
 }
 
 }
