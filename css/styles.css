@@ -1,0 +1,26 @@
+body {
+	background: #000;
+}
+
+p {
+	background: gold;
+}
+
+.ui.attached.header { 
+background: pink;
+}
+
+.ui.move.up.reveal, 
+h3.ui.top.attached.header.visible.content,
+.ui.move.down.reveal,
+h3.ui.bottom.attached.header.visible.content {
+	width:100%;
+}
+
+h3.ui.bottom.attached.header.visible.content {
+	margin-top: 5px;
+}
+
+.ui.segment.attached {
+	border:none;
+}
