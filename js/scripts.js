@@ -10,3 +10,4 @@ $('.bxslider').bxSlider({
   slidePadding: 5
 });
 
+
