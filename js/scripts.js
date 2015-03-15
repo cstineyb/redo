@@ -2,9 +2,10 @@
 
 $('.bxslider').bxSlider({
   
-  minSlides: 3,
+  minSlides: 2,
   maxSlides: 5,
-  slideWidth: 200,
-  slideHeight: 200,
-  slideMargin: 3, 
+  slideWidth: 250,
+  slideHeight: 250,
+  slideMargin: 15, 
+  slidePadding: 5
 });

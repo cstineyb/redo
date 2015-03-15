@@ -33,8 +33,10 @@ border:none;
 }
 
 #middle.ui.attached.header {
-	height:255px;
+	height:310px;
 }
+
+
 
 .ui.move.up.reveal, 
 h3.ui.top.attached.header.visible.content,
@@ -58,4 +60,45 @@ h3.ui.bottom.attached.header.visible.content {
 	color:#999;
 
 }
+/*SLIDER OVERRRIDES*/
+
+.bx-wrapper,
+.bx-viewport{
+	border:none;
+	background: #000;
+}
+
+ul.bxslider {
+  margin: 0;
+  padding: 0;
+}
+
+/*BREAK POINTS*/
+
+/*MOBILE*/
+@media  (max-width: 767px) {
+
+	article {
+		margin: auto 0;
+	}
+}
+
+
+
+/*TABLET*/
+/*@media  (min-width: 768px) {
+
+	body {
+		background: yellow;
+	}
+}*/
+
+
+/*DESKTOP*/
+/*@media  (min-width: 992px) {
+
+	body {
+		background: pink;
+	}
+}*/
 
