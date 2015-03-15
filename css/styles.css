@@ -6,20 +6,27 @@ body {
 	width: 90%;
 	margin: 0 auto;
 }
-header {
-	width:300px;
-}
 
-h1 {
-	font: 3em 'Roboto';
-	font-weight: bolder;
-	width:300px;
-	position:relative;
-}
+
 
 p {
-	background: chocolate;
-	padding: 2% 10% 10% 2%;
+	background: #000;
+	padding-top: 13%;
+	color: #999;
+	font: 3em 'Roboto';
+	font-weight: bolder;
+	letter-spacing: .5px;
+
+	
+}
+p.two{
+	background: #000;
+	padding-top: 2px;
+	color: #999;
+	font: 2.65rem 'Roboto';
+	font-weight: bolder;
+	letter-spacing: .75px
+
 	
 }
 
@@ -51,13 +58,20 @@ h3.ui.bottom.attached.header.visible.content {
 
 .ui.segment.attached {
 	border:none;
+	width:100%;
 
 }
 .hidden.content {
-	width:1200px;
 	height:300px;
-	background: #555;
+	background: #000;
 	color:#999;
+	padding:0;
+	text-align: center;
+}
+
+div.first.ui.segment.hidden.content {
+	
+	text-align: left;
 
 }
 /*SLIDER OVERRRIDES*/
@@ -82,6 +96,24 @@ ul.bxslider {
 		margin: auto 0;
 	}
 
+	p {
+		color: #999;
+		font-size: 1.65em;
+		padding-bottom:2px;
+		background: #000;
+		text-align: left;
+
+	}
+
+
+	p.two {
+		color: #999;
+		font-size: 1em;
+		padding-top:2px;
+		background: #000;
+		text-align:center;
+}
+	
 	div.bx-pager.bx-default-pager {
 		visibility: hidden;
 		height: 0;
@@ -94,6 +126,7 @@ ul.bxslider {
 	#middle.ui.attached.header {
 	height:270px;
 }
+
 }
 
 
