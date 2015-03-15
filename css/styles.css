@@ -89,6 +89,14 @@ ul.bxslider {
   padding: 0;
 }
 
+.icon:hover {
+	color: beige;
+}
+
+.icon {
+	color: #888;
+}
+
 /*BREAK POINTS*/
 
 /*MOBILE*/
