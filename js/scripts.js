@@ -2,7 +2,7 @@
 
 $('.bxslider').bxSlider({
   
-  minSlides: 2,
+  minSlides: 1,
   maxSlides: 5,
   slideWidth: 250,
   slideHeight: 250,
