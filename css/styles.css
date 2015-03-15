@@ -81,6 +81,19 @@ ul.bxslider {
 	article {
 		margin: auto 0;
 	}
+
+	div.bx-pager.bx-default-pager {
+		visibility: hidden;
+		height: 0;
+		padding:0;
+	}
+
+	div.bx-wrapper {
+		margin: 0;
+	}
+	#middle.ui.attached.header {
+	height:270px;
+}
 }
 
 
