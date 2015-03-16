@@ -30,8 +30,7 @@ p.two{
 	
 }
 
-
-.container img {
+img {
 	width:100%;
 }
 
@@ -113,12 +112,6 @@ ul.bxslider {
 	article {
 		margin: auto 0;
 	}
-
-	.container-top {
-	width:300px;
-	height:300px;
-	overflow:hidden;
-}
 
 	p {
 		color: #999;
