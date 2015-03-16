@@ -30,7 +30,10 @@ p.two{
 	
 }
 
-img {float: right}
+
+.container img {
+	width:100%;
+}
 
 .ui.attached.header { 
 background: #000;
@@ -110,6 +113,12 @@ ul.bxslider {
 	article {
 		margin: auto 0;
 	}
+
+	.container-top {
+	width:300px;
+	height:300px;
+	overflow:hidden;
+}
 
 	p {
 		color: #999;
