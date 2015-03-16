@@ -146,6 +146,10 @@ ul.bxslider {
 div.ui.move.up.reveal {
 	margin-top: 8%;
 	
+
+}
+a.bx-prev, a.bx-next {
+	display:none;
 }
 
 }
